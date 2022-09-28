@@ -1,0 +1,44 @@
+.outerbox{
+    color: aquamarine;
+    border: palegreen solid 5px;
+    height: 500px;
+    width: 95%;
+    background-color:crimson;
+    margin: 20px;
+    padding: 10px;
+}
+.box1{
+    border:rgb(218, 18, 135) solid 3px;
+    height: 30%;
+    width: 40%;
+    background-color:darkgray;
+    float: left;
+    margin:20px;
+}
+.box2{
+    border:rgb(218, 18, 135) solid 3px;
+    height: 30%;
+    width: 40%;
+    background-color:darkgray;
+    float:left ;
+    margin: 20px;
+}
+.box3{
+    border:rgb(218, 18, 135) solid 3px;
+    height: 30%;
+    width: 40%;
+    background-color:darkgray;
+    float: left;
+    margin:20px
+}
+.box4{
+    border:rgb(218, 18, 135) solid 3px;
+    height: 30%;
+    width: 40%;
+    background-color:darkgray;
+    float:left;
+    margin: 20px;
+}
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cal.css" rel="stylesheet">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="main-body">
+      <div class="cal">
+            <div class="output">
+              <input id="screen"  type="text">
+            </div>
+            <div class="buttons">
+                <button onclick="clearc('C')" id="clearC">C</button>
+                <div class="row">
+                    <button onclick="bclick(7)" class="bt">7</button>
+                    <button onclick="bclick(8)" class="bt">8</button>
+                    <button onclick="bclick(9)" class="bt">9</button>
+                    <button onclick="divclick('/')" class="bt">/</button>
+                    <!--/ is a string in single cotte -->
+                </div>
+                <div class="row">
+                    <button onclick="bclick(4)" class="bt">4</button>
+                    <button onclick="bclick(5)" class="bt">5</button>
+                    <button onclick="bclick(6)" class="bt">6</button>
+                    <button onclick="mulclick('x')" class="bt">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick(3)" class="bt">3</button>
+                    <button onclick="bclick(2)" class="bt">2</button>
+                    <button onclick="bclick(1)" class="bt">1</button>
+                    <button onclick="subclick('-')" class="bt">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick('.')" class="bt">.</button>
+                    <button onclick="bclick(0)" class="bt">0</button>
+                    <button onclick="addclick('+')" class="bt">+</button>
+                    <button onclick="equalclick()" class="bt">=</button>
+               </div>
+            </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.outerdiv{
+    border: solid 20px cadetblue;
+    width: 300px;
+    height: 100px;
+    background-color:lightcyan;
+    color:gray;
+    margin: 500px;
+    padding: 10%;
+}
+/* margin is used to position the div
+   padding is used to position the element inside the div
+   border is used to give border to the div*/
+#innerdiv{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin:16%;
+}

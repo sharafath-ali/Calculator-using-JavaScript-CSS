@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="show()">click me</button>
+    <button onclick="display()">click me</button>
+    <script>
+        function show(){
+            display()
+            console.log("Button clicked")
+            var a=1
+            var b=2
+            var sum=a+b
+            console.log("sum="+sum)
+            var c=4
+            var c=6
+            console.log("c="+c)
+            let d=7
+            d=8
+            console.log("d="+d)
+            const e=10
+            console.log("e="+e)
+            if(e%2==0){
+               console.log("Number is even")
+               
+            }
+            else{
+                console.log("Number is odd")
+            }
+            for(var i=0;i<10;i++)
+            {
+                console.log(i)
+            }
+            var arr=["a","f","123"]
+            console.log(arr)
+            console.log(arr[2])
+            var person={
+                name:" sharafath Ali ",
+                Age: 21 ,
+                place: " Kannur "
+            }
+            console.log(person)
+            console.log(person.name)
+            var persons=[
+                {
+                Name:" sharafath Ali ",
+                AGe: 21 ,
+                place: " Kannur "
+                },
+                {   Name:"anu",
+                    AGe:18,
+                    place:"kannur"}
+                ]
+
+            console.log(persons)
+            console.log(persons[1].Name)
+
+        
+        }
+        function display(){
+            console.log("hey")
+        }
+    </script>
+</body>
+</html>

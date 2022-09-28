@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btn">click me</button>
+    <div style="width:300px;height:400px;background:green" id="box"></div>
+    <input type="text" id="inp" placeholder="first name">
+    <label style="display:none;"  for="" id="error">enter minimum charachers</label>
+    <input type="text" id=""  placeholder ="last name">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+       $(document).ready(function(){
+        $("#btn").click(function(){
+           // alert("button is clicked")
+           //$("#box").hide()
+           //$("#box").toggle(3000)
+           $("#box").fadeToggle(3000)
+        })
+        $("#btn").mouseenter(function(){
+            $(this).css({"background":"red"})
+        })
+        $("#inp").blur(function(){
+           var text=$(this).val()
+           if(text.length<4){
+               //alert("enter minimum characters")
+               $("#error").show()
+             }  else{
+               $("#error").hide()
+             }
+        })
+       })
+    </script>
+</body>
+</html>

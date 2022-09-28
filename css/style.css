@@ -1,0 +1,139 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+h3{
+	color:blueviolet;
+}
+body{
+	background-color:lightcyan;
+    margin: 0;
+    
+}
+p{ /*same as below 
+	color:darkgray ;
+	font-size: 109px;
+	font-weight: bolder;*/
+
+	font: bolder 10px "bookman old style",serif ;
+	line-height: 1.6em;
+	margin-top: 5px ;
+	margin-bottom:5px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.box-1{
+	background-color: pink;
+	margin-top: 50px ;
+	margin-bottom:5px;
+    margin-right:10px;
+    margin-left:10px;
+    border-right: 5px red solid;
+    border-style: solid;
+    border-top-color: lawngreen ;
+    border-top-style:dotted ;
+    padding-top: 20px;
+    padding: 20px ;
+    
+}
+.container{
+	width: 80%;/* 1000px can be used*/
+	margin: auto;
+}
+.box-1 h4{
+	font-family: cursive;
+	font-weight: 1px;
+	font-style: oblique;
+	text-decoration:overline;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	word-spacing: 1em;
+}
+.categories{
+	background-color: aqua;
+	margin: 0;
+	color: darkorange;\
+	margin: 5px 10px;
+	border: 100px snow  solid;
+	padding: 10px ;
+	border-style: ridge groove;
+	border-radius: 100px;
+	border-color: firebrick;
+	border-top-color: dimgrey;
+	
+}
+.categories h1{
+	text-align: center;
+}
+.categories ul{
+	
+	list-style:arabic-indic ;
+}
+a{text-decoration: none;}
+a:hover{color: blueviolet;}
+a:active{color: green;}
+.categories li{
+	padding-bottom: 10px;
+	border-bottom: dotted 1px black;
+}
+.forn-group{
+	background-color: beige;
+    margin: 10px 50px;
+    border: 10px ;
+    
+}
+.button{ 
+	margin: 10px 50px;
+	color: blueviolet;
+
+}
+.form label {
+    display: block;
+}
+.form input[type="text"],.form textarea{
+	width: 100%;
+	padding: 8px;
+}
+.form input[type="submit"]{
+	background-color: black;
+	color: whitesmoke;
+
+}
+.block{
+
+	float: left;
+	width: 33%;
+	border: 2px solid black ;
+    box-sizing: border-box;
+    background-color: ivory;
+}
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid ivory;
+	margin-top: 30px;
+	background-color: honeydew;
+	
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-image:url(../bg.jpg);
+}
+.fix-me{
+	position: fixed;
+	top: 400px;
+	background-color:ivory;
+	border: 2px solid black;
+	margin: 0;
+	padding:0 ;
+	color: dimgrey;
+}
+.mylis li:first-child{
+	background-color: pink;
+}
+.mylis li:nth-child(3){background-color: aqua;}

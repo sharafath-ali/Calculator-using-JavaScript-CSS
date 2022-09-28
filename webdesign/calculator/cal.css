@@ -1,0 +1,43 @@
+.cal{
+    width:400px;
+    height: 600px;
+    background: rgb(15, 20, 87);
+    background: linear-gradient(90deg, #02f3b7d5 22%, rgba(9,113,236,1) 100%);
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: solid 3px lightgrey;
+}
+#screen{
+    width:89%;
+    margin-left: 20px;
+    height: 40px;
+    margin-top:30px;
+    pointer-events: none;/* pointer event is used to off the take of input by typing.but from switchs*/
+}
+body{
+    
+    background: rgb(186,174,238);
+    background: linear-gradient(90deg, rgba(186,174,238,1) 15%, rgba(125,174,232,1) 90%);
+}
+.output{
+    background: linear-gradient(50deg, rgb(226, 5, 90) 15%, rgb(169, 3, 235) 100%);
+    border-radius: 5px;
+    border: solid lightgray 1px;
+}
+.bt{
+    
+    margin-left: 30px;
+    background-color: rgba(78, 163, 130, 0.829);
+    width:60px;
+    height: 45px;
+    margin-top: 30px;
+}
+#clearC{
+    margin-left: 303px;
+    background-color: rgba(78, 163, 130, 0.829);
+    width:70px;
+    height: 80px;
+    margin-top: 30px;
+    background-color: whit;
+}
